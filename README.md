@@ -39,7 +39,7 @@ Pelanggan WeLaundry dengan menggunakan aplikasi ini ialah mereka dapat memonitor
 
 ## Mini Project Roadmap
 
-Understand how to analyze and implement widgets.
+Implementation to create website, using HTML, CSS, and JavaScript
 
 *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *
 
@@ -48,3 +48,4 @@ Understand how to analyze and implement widgets.
 ### 16 February 2016:
 
 - Design Diagram Activity
+- Design Layout
