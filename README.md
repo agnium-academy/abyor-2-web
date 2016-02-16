@@ -27,6 +27,9 @@ Keuntungan yang didapatkan oleh user :
 1. Pelanggan WeLaundry
 Pelanggan WeLaundry dengan menggunakan aplikasi ini ialah mereka dapat memonitor secara realtime proses cucian yang dari tahapan _Waktu Mulai Pencucian_, _Waktu Selesai Pencucian_, hingga _Status Penerimaan Cucian_ sehingga pelanggan yang nantinya akan mengambil cucian mendapat kepastian status cucian mereka atau mengetahui status pengiriman cucian mereka bila memilih untuk diantarkan.
 
+### Workflow
+![Alt text](https://github.com/agnium-academy/abyor-2-web/blob/master/ActivityDiagram.png "Workflow")
+
 ### Layout
 ![Alt text](https://github.com/agnium-academy/abyor-2-web/blob/master/Layout.png "Layout System")
 
