@@ -21,8 +21,7 @@
 ### Purpose of This Project
 
 * Know your BMI status based on your current weight, height, gender, and age.
-ideal weight based on age and gender.
-* Find your ideal weight based on age and gender
+* Find your ideal weight based on age and gender.
 * Find your healthy weight if you want to lose weight or are on diet.
 
 ### User Experienced
@@ -32,10 +31,6 @@ ideal weight based on age and gender.
 ### Workflow
 
 <tbd>
-
-### Database
-
-* Microsoft SQL Server 2014
 
 *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *
 
