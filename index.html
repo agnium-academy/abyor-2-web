@@ -9,7 +9,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Landing Page - Start Bootstrap Themes</title>
+    <title>FlexBMI - Body Mass Index Calculator</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -20,7 +20,8 @@
     <!-- Custom Fonts -->
     <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <link href="http://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
-    <link rel="stylesheet" type="text/css" href="css/setel.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script src="js/calculate.js" type="text/javascript"></script>
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -79,16 +80,22 @@
                         <hr class="intro-divider">
                         <ul class="list-inline intro-social-buttons">
                        <!--Gue cuma edit disini, masa erorr-->
-                        <form>
+                        <form name="formBmi">
                         <h1 style=""></h1>
                             weight (Kg):<br>
-                            <input type="number" name="kg"></input>
+                            <input type="number" name="weight" placeholder="kg"></input>
                             <br>
                             height (cm):<br>
-                            <input type="number" name="cm"></input>
+                            <input type="number" name="height" placeholder="cm"></input>
                             <br>
                             <br>
-                            <button type="submit"> Calculate </button>
+                            <input type="button" value="Calculate" onclick="calculateBmi()"></input>
+                            <br>
+                            <br>
+                            Your Body Mass Index is: <input type="text" name="bmi" size="10"><br>
+                            It's means: <input type="text" name="result" size="25"><br>
+                            <br>
+                            <br>
                         </form>
                             <br>
                             <li>
