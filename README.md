@@ -75,8 +75,8 @@ Implementation to create website, using HTML, CSS, and JavaScript
 - Modify (pivot) description story in README                              <Husain>  
 - Add image Content "BMI chart" for widget GUI Content                    <Husain>  
 - Add Bootstrap Template file in Repo                                     <Tegar>  
-- Add image layout file and Modify (pivot) layout content in README       <Husain>
-  D
+- Add image layout file and Modify (pivot) layout content in README       <Husain>  
+
 ### 18 February 2016:  
 - Rename image Content to "bmi_chart_index" for widget GUI Content        <Ucu>
 - Modify "User Experiemce" content in README                              <Husain>  
