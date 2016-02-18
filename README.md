@@ -28,8 +28,8 @@
 
 * Deskripsi singkat alur proses kerja website :  
 
-  	Sesuai dengan rancangan layout, secara default halaman utama website "BMI Calculator" terdiri dari empat widget.
-  	A)	Bagian widget  pertama (gambar 2, poin 1) adalah *Widget Header* berisi banner judul dan logo website.  
+  	Sesuai dengan rancangan layout, secara default halaman utama website "BMI Calculator" terdiri dari empat widget.  
+    A)	Bagian widget  pertama (gambar 2, poin 1) adalah *Widget Header* berisi banner judul dan logo website.  
 
   	B)	Bagian widget kedua (gambar 2 & 3, poin 2) adalah *Widget Container* input data perhitungan *BMI*.   
          - Pada widget ini berisi menampung *graphic control element* untuk menampung inputan yang dibutuhkan untuk menghitung BMI user.
@@ -44,7 +44,7 @@
         - Ketika website pertama kali dikunjungi widget ketiga akan menampilkan tampilan seperti yang ditunjukkan di gambar 2 poin 3, dimana  widget ketiga akan menampilkan informasi tentang informasi kegunaan, alur tahapan penggunaan aplikasi unntuk user website.
         - Widget ketiga akan menampilkan tampilan seperti yang ditunjukkan di gambar 3 poin 1 ketika user telah berhasil memasukkan data yang valid ke sistem untuk proses perhitungan BMI.  
 
-    Secara keseluruhan gambaran proses kerja sistem digambarkan pada gambar gambar 4.
+* Secara keseluruhan gambaran proses kerja sistem digambarkan pada gambar gambar 4.
         [Gambar diagram alur]
 
 
@@ -65,9 +65,20 @@ Implementation to create website, using HTML, CSS, and JavaScript
 ## Log
 
 ### 16 February 2016:
+- Create initial Readme                                                   <Ucu>  
+- Add content "User Experience Section" in README                         <Husain>
+- Design Diagram Activity                                                 <Tegar>  
+- Design Layout                                                           <Ucu>  
 
-- Design Diagram Activity
-- Design Layout
+### 17 February 2016:  
+- Add "Bootstrap.csss" file in Repo                                       <Ucu>  
+- Modify (pivot) description story in README                              <Husain>  
+- Add image Content "BMI chart" for widget GUI Content                    <Husain>  
+- Add Bootstrap Template file in Repo                                     <Tegar>  
+- Add image layout file and Modify (pivot) layout content in README       <Husain>  
 
-### 17 February 2016:
-- Create New initial Readme
+### 18 February 2016:  
+- Rename image Content to "bmi_chart_index" for widget GUI Content        <Ucu>
+- Modify "User Experiemce" content in README                              <Husain>  
+- Edit Label, Button, modify content style in style.css                   <Tegar>  
+- Modify "style.css" especialli in body-bg, H1, etc                       <Ucu>
