@@ -7,5 +7,5 @@
         loop: true,
         postfix: ''
       };
-      malarkey(elem, opts).type('BMI Calculator')   .pause().delete()
-                          .type('Keep Aware With Your Health').pause().delete();
+      malarkey(elem, opts).type('MI Calculator')   .pause().delete(13)
+                          .type('e More Aware of Your Health').pause().delete(27);
