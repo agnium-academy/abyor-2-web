@@ -21,9 +21,9 @@
 
 ### Purpose of This Project
 
-* Know your BMI status based on your current weight, height, gender, and age.
-* Find your ideal weight based on age and gender.
-* Find your healthy weight if you want to lose weight or are on diet.
+* Help people to know their BMI status based on their current weight, height, gender, and age.
+* Find user's ideal weight based on age and gender.
+* Find user's healthy weight if you want to lose weight or are on diet.
 
 ### User Experienced  
 
@@ -60,7 +60,7 @@ The overall workflow of this webite described in Figure 4.
 - 1Ghz CPU
 -	100 MB Minimum Space left on Hardisk.
 - 128 MB RAM
--	Ethernet atau virtual network
+-	Ethernet or virtual network
 
 ## Minimum Software System Requirement
 * OS Windows XP or Above
@@ -68,6 +68,7 @@ The overall workflow of this webite described in Figure 4.
 
 ## Minimum Software System Requirement
 * Just double click on index.html located in folder repository and you can start using our web apps.
+
 *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *
 
 
