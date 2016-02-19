@@ -4,18 +4,19 @@
 
 ```
 * Project Name: BMI Index Calculator
-* Version : 0.2
+* Version : 0.3
 * Date	: 17 February 2016
 * Description :
    Help peoples to aware about their current weight status whether it is overweight, normal, or underweight by calculating their Body Mass Index (BMI) on our web apps.(reference : https://en.wikipedia.org/wiki/Body_mass_index).
 * Development kit:
   - HTML
   - CSS
+  - Bootstrap
   - JavaScript
 * Develop by:
-  - Ucu
-  - Tegar
-  - Husain
+  - Ucu (Frontend Developer)
+  - Tegar (UI Designer)
+  - Husain (Technical Writer)
 ```
 
 ### Purpose of This Project
@@ -26,29 +27,28 @@
 
 ### User Experienced  
 
-* Deskripsi singkat alur proses kerja website :  
+* Brief description about website workflow :
 
-  	Sesuai dengan rancangan layout, secara default halaman utama website "BMI Calculator" terdiri dari empat widget.  
-    A)	Bagian widget  pertama (gambar 2, poin 1) adalah *Widget Header* berisi banner judul dan logo website.  
+    According with the initial design layout, the main page (index.html) of the website "BMI Calculator" consists of four widgets.
 
-  	B)	Bagian widget kedua (gambar 2 & 3, poin 2) adalah *Widget Container* input data perhitungan *BMI*.   
-         - Pada widget ini berisi menampung *graphic control element* untuk menampung inputan yang dibutuhkan untuk menghitung BMI user.
-         - Rincian Inputan yang dibutuhkan dan jenis *graphic control element* adalah sebagai berikut :
-            - Umur *(Age)* --> *textbox*,
-            - Tinggi Badan dalam cm *(Height in cm)* --> *textbox*,
-            - Berat Badan dalam kg *(Weight in kg)* --> *textbox*,
-            - Jenis Kelamin *(Gender)* --> *radio button*,
-            - Hitung *(Calculate)* --> *button*  
+    A)  First widget (Figure 2, point 1) is a *Widget Header* consist  of website title and website logo.
 
-    C)	Bagian widget ketiga adalah *Widget Container* untuk menampilkan informasi tentang informasi kegunaan, alur tahapan penggunaan aplikasi unntuk user website, maupun hasil perhitungan BMI dari input data user.  
-        - Ketika website pertama kali dikunjungi widget ketiga akan menampilkan tampilan seperti yang ditunjukkan di gambar 2 poin 3, dimana  widget ketiga akan menampilkan informasi tentang informasi kegunaan, alur tahapan penggunaan aplikasi unntuk user website.
-        - Widget ketiga akan menampilkan tampilan seperti yang ditunjukkan di gambar 3 poin 1 ketika user telah berhasil memasukkan data yang valid ke sistem untuk proses perhitungan BMI.  
+  	B)	The second widget section (Figure 2 & 3, point 2) is * Widget Container * contains  * graphic control element * and a button to accommodate the input needed to calculate BMI user.  
+    the description about the required input needed and the * graphic control element * type describe as follows:
+      - Umur *(Age)* --> *textbox*,
+      - Tinggi Badan dalam cm *(Height in cm)* --> *textbox*,
+      - Berat Badan dalam kg *(Weight in kg)* --> *textbox*,
+      - Jenis Kelamin *(Gender)* --> *radio button*,
+      - Hitung *(Calculate)* --> *button*
+
+    C) The third widget is * Container Widget* to display information about website information, how to use the website, as well as the results of the BMI calculation.
+        - When the website visited at the first time, the third widget will display the website information, and guidance of how to use this website as shown in figure 2 points 3.
+        - The third Widget will displayed as shown in figure 3 points 1 when the user has successfully enter valid data into the system for BMI calculation process.        
 
 * Secara keseluruhan gambaran proses kerja sistem digambarkan pada gambar gambar 4.
+The overall workflow of this webite described in Figure 4.
         [Gambar diagram alur]
 
-
-=======
 ### Layout
 ![Alt text](https://github.com/agnium-academy/abyor-2-web/blob/master/Layout.png "Layout")
 
@@ -56,29 +56,44 @@
 
 *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *
 
-## Mini Project Roadmap
+## Minimum Hardware System Requirement
+- 1Ghz CPU
+-	100 MB Minimum Space left on Hardisk.
+- 128 MB RAM
+-	Ethernet atau virtual network
 
-Implementation to create website, using HTML, CSS, and JavaScript
+## Minimum Software System Requirement
+* OS Windows XP or Above
+* Browser Chrome v.48.0.2564.109 OR Mozilla Firefox v.44.0.2 with Javascript enabled.
 
+## Minimum Software System Requirement
+* Just double click on index.html located in folder repository and you can start using our web apps.
 *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *
+
+
 
 ## Log
 
 ### 16 February 2016:
-- Create initial Readme                                                   <Ucu>  
-- Add content "User Experience Section" in README                         <Husain>
-- Design Diagram Activity                                                 <Tegar>  
-- Design Layout                                                           <Ucu>  
+- Create initial Readme [Ucu]
+- Add content "User Experience Section" in README [Husain]
+- Design Diagram Activity [Tegar]
+- Design Layout [Ucu]
 
 ### 17 February 2016:  
-- Add "Bootstrap.csss" file in Repo                                       <Ucu>  
-- Modify (pivot) description story in README                              <Husain>  
-- Add image Content "BMI chart" for widget GUI Content                    <Husain>  
-- Add Bootstrap Template file in Repo                                     <Tegar>  
-- Add image layout file and Modify (pivot) layout content in README       <Husain>  
+- Add "Bootstrap.csss" file in Repo [Ucu]
+- Modify (pivot) description story in README [Husain]
+- Add image Content "BMI chart" for widget GUI Content [Husain]
+- Add Bootstrap Template file in Repo [Tegar]
+- Add image layout file and Modify (pivot) layout content in README [Husain]
 
 ### 18 February 2016:  
-- Rename image Content to "bmi_chart_index" for widget GUI Content        <Ucu>
-- Modify "User Experiemce" content in README                              <Husain>  
-- Edit Label, Button, modify content style in style.css                   <Tegar>  
-- Modify "style.css" especialli in body-bg, H1, etc                       <Ucu>
+- Rename image Content to "bmi_chart_index" for widget GUI Content [Ucu]
+- Modify "User Experiemce" content in README                              [Husain]
+- Edit Label, Button, modify content style in style.css                   [Tegar]
+- Modify "style.css" especialli in body-bg, H1, etc                       [Ucu]
+
+### 19 February 2016:  
+- Modify index.html (add form grup) [Ucu]
+- Create logic for calculate BMI [Ucu]
+- Modify gui in index.html (Tegar)
