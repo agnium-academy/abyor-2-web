@@ -5,7 +5,8 @@
 ```
 * Project Name: BMI Index Calculator
 * Version : 0.3
-* Date	: 17 February 2016
+* Create Date	: 17 February 2016
+* last edited Date : 19 February 2016
 * Description :
    Help peoples to aware about their current weight status whether it is overweight, normal, or underweight by calculating their Body Mass Index (BMI) on our web apps.(reference : https://en.wikipedia.org/wiki/Body_mass_index).
 * Development kit:
@@ -35,19 +36,18 @@
 
   	B)	The second widget section (Figure 2 & 3, point 2) is * Widget Container * contains  * graphic control element * and a button to accommodate the input needed to calculate BMI user.  
     the description about the required input needed and the * graphic control element * type describe as follows:
-      - Umur *(Age)* --> *textbox*,
-      - Tinggi Badan dalam cm *(Height in cm)* --> *textbox*,
-      - Berat Badan dalam kg *(Weight in kg)* --> *textbox*,
-      - Jenis Kelamin *(Gender)* --> *radio button*,
-      - Hitung *(Calculate)* --> *button*
+      - *(Age)* --> *textbox*,
+      - *(Height in cm)* --> *textbox*,
+      - *(Weight in kg)* --> *textbox*,
+      - *(Calculate)* --> *button*
 
     C) The third widget is * Container Widget* to display information about website information, how to use the website, as well as the results of the BMI calculation.
         - When the website visited at the first time, the third widget will display the website information, and guidance of how to use this website as shown in figure 2 points 3.
         - The third Widget will displayed as shown in figure 3 points 1 when the user has successfully enter valid data into the system for BMI calculation process.        
 
-* Secara keseluruhan gambaran proses kerja sistem digambarkan pada gambar gambar 4.
-The overall workflow of this webite described in Figure 4.
-        [Gambar diagram alur]
+* The overall workflow of this website described in Figure 4.
+![Alt text](https://github.com/agnium-academy/abyor-2-web/blob/master/FlexBMIactivitydiagram.jpg " Figure 4 - FlexBMI Activity Diagram")
+        [Figure 4]
 
 ### Layout
 ![Alt text](https://github.com/agnium-academy/abyor-2-web/blob/master/Layout.png "Layout")
