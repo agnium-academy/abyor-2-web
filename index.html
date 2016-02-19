@@ -34,7 +34,7 @@
       <div class="navbar-header">
       <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
         <span class="sr-only">Toggle navigation</span>
-      </button> 
+      </button>
       <a class="navbar-brand topnav">BMI</a></div>
       <!-- Collect the nav links, forms, and other content for toggling -->
       <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
@@ -71,8 +71,9 @@
               <li style="list-style: none; display: inline">
                 <div class="col-md-12">
                   <div class="row">
-                    <div class="col-md-4">
-                      <form>
+                    <div class="col-md-2"></div>
+                    <div class="col-md-4" style="text-align:left;">
+                      <form name="formBmi">
                         <span style="color: #FFFFFF;">Age</span>
                         <input type="number" class="form-control" name="age" placeholder="your age" />
                         <br />
@@ -82,14 +83,21 @@
                         <span style="color: #FFFFFF;">Height</span>
                           <input type="number" class="form-control" name="height" placeholder="your height (Cm)" />
                         <br />
+                        <select class="form-control" style="width:215px;" name="sex">
+                    		  <option value="male">Male</option>
+                    		  <option value="female">Female</option>
+                    		</select>
+                        <br />
+                        <br />
                           <input type="button" value="Calculate" class="btn btn-primary" onclick="calculateBmi()" />
+                          <input type="reset" value="Reset" class="btn btn-warning" />
                         </form>
                         </div>
-                    <div class="col-md-4">
-                        <form>
+                    <div class="col-md-6" style="text-align:left;">
+                        <form name="formBmiValue">
                         <span style="color: #FFFFFF;">Your Body Mass Index is:</span>
                         <br />
-                        <input type="number" class="form-control" name="body-mass-index"/>
+                        <input type="number" class="form-control" name="bmi"/>
                         <br />
                         <span style="color: #FFFFFF;">It&#39;s means:</span>
                         <br />
@@ -99,22 +107,6 @@
                     </div>
                 </div>
                 <br />
-              </li>
-              <li>
-                <a href="https://twitter.com/SBootstrap" class="btn btn-default btn-lg">
-                  <span class="network-name">Twitter</span>
-                </a>
-              </li>
-              <li>
-                <a href="https://github.com/IronSummitMedia/startbootstrap" class="btn btn-default btn-lg">
-                  <span class="network-name">Github</span>
-                </a>
-              </li>
-              <li>
-                <a href="#" class="btn btn-default btn-lg">
-                  <span class="network-name">Linkedin</span>
-                </a>
-              </li>
             </ul>
           </div>
         </div>
@@ -160,10 +152,10 @@
     </div>
   </footer>
   <!-- jQuery -->
-  <script src="js/jquery.js"></script> 
-  <script src="js/malarkey-master/dist/malarkey.min.js" type="text/javascript"></script> 
-  <script src="js/malarkey-tegar.js" type="text/javascript"></script> 
+  <script src="js/jquery.js"></script>
+  <script src="js/malarkey-master/dist/malarkey.min.js" type="text/javascript"></script>
+  <script src="js/malarkey-tegar.js" type="text/javascript"></script>
   <!-- Bootstrap Core JavaScript -->
-   
+
   <script src="js/bootstrap.min.js"></script></body>
 </html>
