@@ -4,7 +4,7 @@
 
 ```
 * Project Name: BMI Index Calculator
-* Version : 0.3
+* Version : 1.0
 * Create Date	: 17 February 2016
 * last edited Date : 19 February 2016
 * Description :
@@ -32,9 +32,9 @@
 
     According with the initial design layout, the main page (index.html) of the website "BMI Calculator" consists of four widgets.
 
-    A)  First widget (Figure 2, point 1) is a *Widget Header* consist  of website title and website logo.
+    A)  First widget ~~(Figure 2, point 1)~~ is a *Widget Header* consist  of website title and website logo.
 
-  	B)	The second widget section (Figure 2 & 3, point 2) is * Widget Container * contains  * graphic control element * and a button to accommodate the input needed to calculate BMI user.  
+  	B)	The second widget section ~~(Figure 2 & 3, point 2)~~ is * Widget Container * contains  * graphic control element * and a button to accommodate the input needed to calculate BMI user.  
     the description about the required input needed and the * graphic control element * type describe as follows:
       - *(Age)* --> *textbox*,
       - *(Height in cm)* --> *textbox*,
@@ -70,6 +70,8 @@
 
 ## How to use this website (FlexBMI)?
 * Just double click on index.html located in folder repository and you can start using our web apps.
+* Input your Age, Weight (in kg), Height (in cm), and Gender then press Calculate Button
+
 
 *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *
 
@@ -92,11 +94,14 @@
 
 ### 18 February 2016:  
 - Rename image Content to "bmi_chart_index" for widget GUI Content [Ucu]
-- Modify "User Experiemce" content in README                              [Husain]
+- Modify "User Experience" content in README                              [Husain]
 - Edit Label, Button, modify content style in style.css                   [Tegar]
-- Modify "style.css" especialli in body-bg, H1, etc                       [Ucu]
+- Modify "style.css" especially in body-bg, H1, etc                       [Ucu]
 
 ### 19 February 2016:  
 - Modify index.html (add form grup) [Ucu]
 - Create logic for calculate BMI [Ucu]
-- Modify gui in index.html (Tegar)
+- Modify gui in index.html [Tegar]
+- Modify "User Experience" content in README                              [Husain]
+- Create Activity Diagram [Husain]
+- Create Slide (powerpoint) [Husain]
