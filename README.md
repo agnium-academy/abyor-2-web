@@ -52,7 +52,7 @@
         [Figure 4]
 
 ### Layout
-![Alt text](https://github.com/agnium-academy/abyor-2-web/blob/master/Layout.png "Layout")
+![Alt text](https://github.com/agnium-academy/abyor-2-web/blob/master/Screenshot-Web.JPG "Screenshot-Web")
 
 
 
