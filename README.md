@@ -68,7 +68,7 @@
 * OS Windows XP or Above
 * Browser Chrome v.48.0.2564.109 OR Mozilla Firefox v.44.0.2 with Javascript enabled.
 
-## Minimum Software System Requirement
+## How to use this website (FlexBMI)?
 * Just double click on index.html located in folder repository and you can start using our web apps.
 
 *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *
