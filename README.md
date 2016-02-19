@@ -45,8 +45,10 @@
         - When the website visited at the first time, the third widget will display the website information, and guidance of how to use this website as shown in figure 2 points 3.
         - The third Widget will displayed as shown in figure 3 points 1 when the user has successfully enter valid data into the system for BMI calculation process.        
 
-* The overall workflow of this website described in Figure 4.
+* The overall workflow of this website described in Figure 4
+
 ![Alt text](https://github.com/agnium-academy/abyor-2-web/blob/master/FlexBMIactivitydiagram.jpg " Figure 4 - FlexBMI Activity Diagram")
+
         [Figure 4]
 
 ### Layout
