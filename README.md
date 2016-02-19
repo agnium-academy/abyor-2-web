@@ -62,7 +62,6 @@
 - 1Ghz CPU
 -	100 MB Minimum Space left on Hardisk.
 - 128 MB RAM
--	Ethernet or virtual network
 
 ## Minimum Software System Requirement
 * OS Windows XP or Above
